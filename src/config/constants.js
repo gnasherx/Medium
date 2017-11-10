@@ -1,8 +1,14 @@
-const devConfig = {};
+const devConfig = {
+  MONGO_URI: 'mongodb://localhost/mediumapi-dev',
+};
 
-const testConfig = {};
+const testConfig = {
+  MONGO_URI: 'mongodb://localhost/mediumapi-test',
+};
 
-const prodConfig = {};
+const prodConfig = {
+  MONGO_URI: 'mongodb://localhost/mediumapi-prod',
+};
 
 const defaultConfig = {
   PORT: process.env.PORT || 3000,
