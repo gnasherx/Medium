@@ -1,0 +1,16 @@
+{
+  "name": "Medium",
+  "version": "1.0.0",
+  "description": "This is Medium api.",
+  "main": "index.js",
+  "repository": "https://github.com/gnasherx/Medium",
+  "author": "gnasherx <pawarg124@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
